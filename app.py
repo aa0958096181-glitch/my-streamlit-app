@@ -32,9 +32,9 @@ if announcements:
 else:
   st.info("目前沒有公告")
     
-cursor.close()
-conn.close()
+  cursor.close()
+  conn.close()
 
 except Exception as e:
-    st.error("目前無法讀取公告資料")
-    st.exception(e)
+  st.error("目前無法讀取公告資料")
+  st.exception(e)
