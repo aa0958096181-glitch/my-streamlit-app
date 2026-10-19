@@ -1,4 +1,5 @@
 import streamlit as st
+import psycopg
 
 st.title("我的第一個 Streamlit 網頁")
 
