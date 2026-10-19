@@ -22,7 +22,7 @@ try:
       ORDER BY created_at DESC
     """)
     
-announcements = cursor.fetchall()
+    announcements = cursor.fetchall()
 
 if announcements:
   for title, content, created_at in announcements:
